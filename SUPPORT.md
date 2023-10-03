@@ -1,24 +1,33 @@
-# TODO: The maintainer of this repo has not yet edited this file
-
-**REPO OWNER**: Do you want Customer Service & Support (CSS) support for this product/project?
-
-- **No CSS support:** Fill out this template with information about how to file issues and get help.
-- **Yes CSS support:** Fill out an intake form at [aka.ms/onboardsupport](https://aka.ms/onboardsupport). CSS will work with/help you to determine next steps.
-- **Not sure?** Fill out an intake as though the answer were "Yes". CSS will help you decide.
-
-*Then remove this first heading from this SUPPORT.MD file before publishing your repo.*
-
 # Support
+
+## General Questions
+
+If you have questions you haven't been able to answer from the [Azure Policy documentation](https://docs.microsoft.com/azure/governance/policy), there are a few places that host discussions on Azure Policy:
+- [Microsoft Tech Community](https://techcommunity.microsoft.com/) 
+- [Azure Governance conversation space](https://techcommunity.microsoft.com/t5/Azure-Governance/bd-p/AzureGovernance)
+- Search or add to Azure Policy discussions on [StackOverflow](https://stackoverflow.com/questions/tagged/azure-policy+or+azure+policy)
+- Additional information can be found in the [Azure Policy - Microsoft Q&A](https://learn.microsoft.com/answers/tags/228/azure-policy)
+- If interested in authoring custom definitions, you can also leverage this [Azure/Community-Policy](https://github.com/Azure/Community-Policy) repository for contributing.
+
+If you are encountering difficulties in implementing new policies that may be due to problems in Azure Policy itself, open a support ticket at [Azure Customer Support](https://azure.microsoft.com/support/create-ticket/). 
+
+## Built-in Definitions
+
+The support for addressing built-in definition issues is handled by Azure Customer Support. Open a new [Azure Customer Support ticket](https://azure.microsoft.com/support/create-ticket/) if you believe a definition has a bug or error.
+
+## Azure Policy Known Issues
+
+Check here for a current list of [known issues](https://github.com/Azure/azure-policy/tree/master#known-issues) for Azure Policy.
 
 ## How to file issues and get help  
 
-This project uses GitHub Issues to track bugs and feature requests. Please search the existing 
-issues before filing new issues to avoid duplicates.  For new issues, file your bug or 
+This project uses GitHub Issues to track bugs and feature requests. Please search the existing
+issues before filing new issues to avoid duplicates.  For new issues, file your bug or
 feature request as a new Issue.
 
-For help and questions about using this project, please **REPO MAINTAINER: INSERT INSTRUCTIONS HERE 
-FOR HOW TO ENGAGE REPO OWNERS OR COMMUNITY FOR HELP. COULD BE A STACK OVERFLOW TAG OR OTHER
-CHANNEL. WHERE WILL YOU HELP PEOPLE?**.
+Issues can be created and searched through under the "Issues" tab.
+
+Please provide as much information as possible when filing an issue (please redact any sensitive information). We may ask you to create an Azure support request using the following process documented [here](https://learn.microsoft.com/azure/azure-portal/supportability/how-to-create-azure-support-request).
 
 ## Microsoft Support Policy  
 
