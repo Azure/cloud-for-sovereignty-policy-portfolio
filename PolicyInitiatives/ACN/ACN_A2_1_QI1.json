@@ -1,0 +1,1071 @@
+{
+    "properties": {
+        "displayName": "ACN_A2_1_QI1",
+        "policyType": "Custom",
+        "description": "This initiative includes policies that address the ACN controls for Qualifications QI1.",
+        "metadata": {
+            "version": "1.0.1",
+            "category": "Regulatory Compliance"
+        },
+        "policyDefinitionGroups": [
+            {
+                "name": "ACN-A2-1-A.AA-2_1",
+                "displayName": "ACN-A2-1-A.AA-2_1",
+                "description": "High reliability | [A.AA-2] Solutions are available for configuring services in high availability | [1] The Data Processing Center (CED) must be equipped with hardware and software solutions (network and security equipment, storage, virtualization services, etc.) for the configuration of services in high availability. Capabilities and functionalities must also be made available to support high-availability service configurations such as | [a] Choosing Local Data Replication for a Storage Service | [b] Presence of load balancers | [c] Anti-affinity mechanisms for the distribution of computational instances"
+            },
+            {
+                "name": "ACN-A2-1-A2.T1-01",
+                "displayName": "ACN-A2-1-A2.T1-01",
+                "description": "Minimum Infrastructure Service Indicators | [A2.T1-01] Availability: The percentage of time in a year that infrastructure is accessible and usable"
+            },
+            {
+                "name": "ACN-A2-1-A2.T1-02",
+                "displayName": "ACN-A2-1-A2.T1-02",
+                "description": "Minimum Infrastructure Service Indicators | [A2.T1-02] Support hours - Support hours emergencies: The time at which the technical support service is operational for emergencies."
+            },
+            {
+                "name": "ACN-A2-1-A2.T1-03",
+                "displayName": "ACN-A2-1-A2.T1-03",
+                "description": "Minimum Infrastructure Service Indicators | [A2.T1-03] Support hours (minimum): The minimum time that the technical support service is operational"
+            },
+            {
+                "name": "ACN-A2-1-A2.T1-04",
+                "displayName": "ACN-A2-1-A2.T1-04",
+                "description": "Minimum Infrastructure Service Indicators | [A2.T1-04] Support activities - First Support Response Time: The maximum time that elapses between the reporting of an event with a critical impact on the operations of the Administration and the initial response to the report by the subject"
+            },
+            {
+                "name": "ACN-A2-1-A2.T1-05",
+                "displayName": "ACN-A2-1-A2.T1-05",
+                "description": "Minimum Infrastructure Service Indicators | [A2.T1-05] Recovery Time Objective (RTO): The maximum time needed to fully restore the service after an interruption due to a \"catastrophic event\" that triggered the activation of a secondary delivery environment (disaster recovery)."
+            },
+            {
+                "name": "ACN-A2-1-A2.T1-06",
+                "displayName": "ACN-A2-1-A2.T1-06",
+                "description": "Minimum Infrastructure Service Indicators | [A2.T1-06] Recovery Point Objective (RPO): The maximum time interval preceding a \"catastrophic event\" against which data changes may be lost as a result of disaster recovery activities."
+            },
+            {
+                "name": "ACN-A2-1-A2.T1-07",
+                "displayName": "ACN-A2-1-A2.T1-07",
+                "description": "Minimum Infrastructure Service Indicators | [A2.T1-07] Backup testing: The minimum number of restore tests (starting from backup data) performed in a year."
+            },
+            {
+                "name": "ACN-A2-1-A2.T1-08",
+                "displayName": "ACN-A2-1-A2.T1-08",
+                "description": "Minimum Infrastructure Service Indicators | [A2.T1-08] Incident communication and data breach: The maximum time interval to notify the Administration of an incident or data breach, downstream of the registration of the report and classification of the event"
+            },
+            {
+                "name": "ACN-A2-1-CE.CE-01_1",
+                "displayName": "ACN-A2-1-CE.CE-01_1",
+                "description": "Processing capacity | [CE.CE-01] Compute capacity management in accordance with industry standards or best practices | [1] The processing capacity of the Digital Infrastructure is managed through a formal process adhering to ITIL capacity management best practices or to the guidelines present in ISO/IEC 20000-2."
+            },
+            {
+                "name": "ACN-A2-1-PR.AC-2_1",
+                "displayName": "ACN-A2-1-PR.AC-2_1",
+                "description": "Identity Management, Authentication and Access Control (PR. AC): Access to physical and logical assets and related resources is limited to authorized personnel, processes and devices, and is managed in a manner consistent with the assessment of the risk of unauthorized access to authorized activities and transactions | [PR.AC-2] Physical access to resources is secured and administered | [1] With reference to the censuses in subcategory ID.AM-1, there is an updated detailed document containing at least: | [a] the security policies adopted for the protection and administration of physical access. | [b] the processes, methodologies and technologies used that contribute to compliance with safety policies."
+            },
+            {
+                "name": "ACN-A2-1-PR.AC-2_2",
+                "displayName": "ACN-A2-1-PR.AC-2_2",
+                "description": "Identity Management, Authentication and Access Control (PR. AC): Access to physical and logical assets and related resources is limited to authorized personnel, processes and devices, and is managed in a manner consistent with the assessment of the risk of unauthorized access to authorized activities and transactions | [PR.AC-2] Physical access to resources is secured and administered | [2] A physical security perimeter is defined in order to safeguard personnel, data and information systems."
+            },
+            {
+                "name": "ACN-A2-1-RE.GE-01_1",
+                "displayName": "ACN-A2-1-RE.GE-01_1",
+                "description": "Energy saving | [RE.GE-01] Energy management conducted in adherence to industry standards | [1] The entity has formally adopted procedures for the management of gas emissions produced by its Data Centers (e.g.ISO 14064), or for the energy management of its Data Centers (e.g.ISO 50001), or for the environmental management of its Data Centers (e.g. .ISO 14001)."
+            },
+            {
+                "name": "ACN-A2-1-RS.MI-3_1",
+                "displayName": "ACN-A2-1-RS.MI-3_1",
+                "description": "Mitigation (RS.MI): Actions are taken to prevent the expansion of a security event, to mitigate its effects, and to resolve the incident | [RS.MI-3] New vulnerabilities are mitigated or documented as an accepted risk | [1] Vulnerabilities are mitigated in accordance with the vulnerability management plan (PR. IP-12), i.e. the residual risk deriving from the lack of mitigation is documented and accepted."
+            },
+            {
+                "name": "ACN-A2-1-RS.MI-3_2",
+                "displayName": "ACN-A2-1-RS.MI-3_2",
+                "description": "Mitigation (RS.MI): Actions are taken to prevent the expansion of a security event, to mitigate its effects, and to resolve the incident | [RS.MI-3] New vulnerabilities are mitigated or documented as an accepted risk | [2] Procedures and technical measures are defined and implemented to allow response actions (planned or when emergencies occur) in case of identified vulnerabilities, based on risk."
+            },
+            {
+                "name": "ACN-A2-1-S.DC-01_1",
+                "displayName": "ACN-A2-1-S.DC-01_1",
+                "description": "Data Center Security | [S.DC-01] Data Centres (EDCs) comply with minimum levels of physical and infrastructural security | [1] The subject guarantees the operational supervision of the Data Center 24/7/365."
+            },
+            {
+                "name": "ACN-A2-1-S.DC-01_2",
+                "displayName": "ACN-A2-1-S.DC-01_2",
+                "description": "Data Center Security | [S.DC-01] Data Centres (EDCs) comply with minimum levels of physical and infrastructural security | [2] The Data Center has been designed and built according to infrastructural reference standards, such as ANSI/BICSI 002, TIA-942, EN 50600, Uptime Institute Tier Certification or similar."
+            },
+            {
+                "name": "ACN-A2-1-S.DC-01_3",
+                "displayName": "ACN-A2-1-S.DC-01_3",
+                "description": "Data Center Security | [S.DC-01] Data Centres (EDCs) comply with minimum levels of physical and infrastructural security | [3] In the rooms hosting the Data Centers there are floating floors if the distribution of power supply and wiring does not take place by air."
+            },
+            {
+                "name": "ACN-A2-1-S.DC-01_4",
+                "displayName": "ACN-A2-1-S.DC-01_4",
+                "description": "Data Center Security | [S.DC-01] Data Centres (EDCs) comply with minimum levels of physical and infrastructural security | [4] The subject guarantees the fire characteristics of the Data Center in compliance with current fire regulations."
+            },
+            {
+                "name": "ACN-A2-1-S.DC-01_5",
+                "displayName": "ACN-A2-1-S.DC-01_5",
+                "description": "Data Center Security | [S.DC-01] Data Centres (EDCs) comply with minimum levels of physical and infrastructural security | [5] The subject guarantees that all Data Center servers are connected to electrical continuity equipment (UPS)."
+            },
+            {
+                "name": "ACN-A2-1-S.DC-02_1",
+                "displayName": "ACN-A2-1-S.DC-02_1",
+                "description": "Data Center Security | [S.DC-02] Physical and environmental security measures are taken | [1] There is a detailed document that defines policies and procedures related to the secure movement of physical media. These policies and procedures should be reviewed on at least an annual basis."
+            },
+            {
+                "name": "ACN-A2-1-S.DC-02_2",
+                "displayName": "ACN-A2-1-S.DC-02_2",
+                "description": "Data Center Security | [S.DC-02] Physical and environmental security measures are taken | [2] Surveillance systems are implemented, maintained and adopted outside the data centers and at all entry and exit points in order to detect any attempt at unauthorized entry."
+            },
+            {
+                "name": "ACN-A2-1-S.DC-02_3",
+                "displayName": "ACN-A2-1-S.DC-02_3",
+                "description": "Data Center Security | [S.DC-02] Physical and environmental security measures are taken | [3] Environmental control systems are implemented, maintained and adopted within the Data Centers in order to monitor and test the adequacy of temperatures and humidity conditions within the area, in compliance with the main industry standards."
+            },
+            {
+                "name": "ACN-A2-1-DE.CM-8_1",
+                "displayName": "ACN-A2-1-DE.CM-8_1",
+                "description": "Security Continuous Monitoring (DE. CM): Information systems and assets are monitored to identify cybersecurity events and to verify the effectiveness of protection measures | [DE.CM-8] Scans are performed to identify vulnerabilities | [1] Based on the risk analysis, penetration tests and vulnerability assessments are performed on critical software platforms and applications before they are put into operation."
+            },
+            {
+                "name": "ACN-A2-1-DE.CM-8_2",
+                "displayName": "ACN-A2-1-DE.CM-8_2",
+                "description": "Security Continuous Monitoring (DE. CM): Information systems and assets are monitored to identify cybersecurity events and to verify the effectiveness of protection measures | [DE.CM-8] Scans are performed to identify vulnerabilities | [2] Penetration tests and vulnerability assessments are periodically carried out in relation to the criticality of software platforms and applications."
+            },
+            {
+                "name": "ACN-A2-1-DE.CM-8_3",
+                "displayName": "ACN-A2-1-DE.CM-8_3",
+                "description": "Security Continuous Monitoring (DE. CM): Information systems and assets are monitored to identify cybersecurity events and to verify the effectiveness of protection measures | [DE.CM-8] Scans are performed to identify vulnerabilities | [3] There is an updated document containing the type of penetration test and vulnerability assessment envisaged."
+            },
+            {
+                "name": "ACN-A2-1-DE.CM-8_4",
+                "displayName": "ACN-A2-1-DE.CM-8_4",
+                "description": "Security Continuous Monitoring (DE. CM): Information systems and assets are monitored to identify cybersecurity events and to verify the effectiveness of protection measures | [DE.CM-8] Scans are performed to identify vulnerabilities | [4] There is an updated register of penetration tests and vulnerability assessments performed accompanied by the relevant documentation."
+            },
+            {
+                "name": "ACN-A2-1-RS.MI-3-2",
+                "displayName": "ACN-A2-1-RS.MI-3-2",
+                "description": "Mitigation (RS.MI): Actions are taken to prevent the expansion of a security event, to mitigate its effects, and to resolve the incident | [RS.MI-3] New vulnerabilities are mitigated or documented as an accepted risk"
+            }
+        ],
+        "parameters": {},
+        "policyDefinitions": [
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1372",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/25b96717-c912-4c00-9143-4e487f411726",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-08"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1670",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/c6108469-57ee-4666-af7e-79ba61c7ae0c",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1",
+                    "ACN-A2-1-RS.MI-3_2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1445",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/32d07d59-2716-4972-b37b-214a67ac4a37",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-PR.AC-2_1",
+                    "ACN-A2-1-RE.GE-01_1",
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1541",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/70f6af82-7be6-44aa-9b15-8b9231b2e434",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1254",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/704e136a-4fe0-427c-b829-cd69957f5d2b",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-01"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1469",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/f509c5b6-0de0-4a4e-9b2e-cd9cbf3a58fd",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1270",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/53c76a39-2097-408a-b237-b279f7b4614d",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-05",
+                    "ACN-A2-1-A2.T1-06"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1474",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/03ad326e-d7a1-44b1-9a76-e17492efc9e4",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1292",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/d03516cf-0293-489f-9b32-a18f2a79f836",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A.AA-2_1",
+                    "ACN-A2-1-A2.T1-07"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1669",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/48f2f62b-5743-4415-a143-288adc0e078d",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1470",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/c89ba09f-2e0f-44d0-8095-65b05bd151ef",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1376",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/493a95f3-f2e3-47d0-af02-65e6d6decc2f",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-02"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1672",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/b45fe972-904e-45a4-ac20-673ba027a301",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1451",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e3f1e5a3-25c1-4476-8cb6-3955031f8e65",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1242",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cf3b3293-667a-445e-a722-fa0b0afc0958",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-01",
+                    "ACN-A2-1-A2.T1-05",
+                    "ACN-A2-1-A2.T1-06"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1157",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/15495367-cf68-464c-bbc3-f53ca5227b7a",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1261",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/65aeceb5-a59c-4cb1-8d82-9c474be5d431",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-07"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1287",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/819dc6da-289d-476e-8500-7e341ef8677d",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A.AA-2_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1166",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/bb02733d-3cc5-4bb0-a6cd-695ba2c2272e",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1",
+                    "ACN-A2-1-RS.MI-3_2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1374",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cc5c8616-52ef-4e5e-8000-491634ed9249",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-02",
+                    "ACN-A2-1-A2.T1-03",
+                    "ACN-A2-1-A2.T1-04"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1738",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1f01608c-5f35-492d-8763-8edf0080cc38",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1",
+                    "ACN-A2-1-RS.MI-3_2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1482",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9df4277e-8c88-4d5c-9b1a-541d53d15d7b",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RE.GE-01_1",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1369",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/18cc35ed-a429-486d-8d59-cb47e87304ed",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-08"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1485",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/50301354-95d0-4a11-8af5-8039ecf6d38b",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1478",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/f997df46-cfbb-4cc8-aac8-3fecdaf6a183",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RE.GE-01_1",
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1297",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/93fd8af1-c161-4bae-9ba9-f62731f76439",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A.AA-2_1",
+                    "ACN-A2-1-A2.T1-05",
+                    "ACN-A2-1-A2.T1-06"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1375",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/00379355-8932-4b52-b63a-3bc6daf3451a",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-02",
+                    "ACN-A2-1-A2.T1-03",
+                    "ACN-A2-1-A2.T1-08"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1453",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9693b564-3008-42bc-9d5d-9c7fe198c011",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-PR.AC-2_2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1293",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/87f7cd82-2e45-4d0f-9e2f-586b0962d142",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A.AA-2_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1252",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a328fd72-8ff5-4f96-8c9c-b30ed95db4ab",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-01",
+                    "ACN-A2-1-CE.CE-01_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1294",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49dbe627-2c1e-438c-979e-dd7a39bbf81d",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-05"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1549",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/d6976a08-d969-4df2-bb38-29556c2eb48a",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1673",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/dff0b90d-5a6f-491c-b2f8-b90aa402d844",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1475",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/34a63848-30cf-4081-937e-ce1a1c885501",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1165",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/47e10916-6c9e-446b-b0bd-ff5fd439d79d",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1464",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/41256567-1795-4684-b00b-a1308ce43cac",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1465",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e6e41554-86b5-4537-9f7f-4fc41a1d1640",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1378",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/97fceb70-6983-42d0-9331-18ad8253184d",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-08"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1472",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ef869332-921d-4c28-9402-3be73e6e50c8",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1473",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/d7047705-d719-46a7-8bb0-76ad233eba71",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1484",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/486b006a-3653-45e8-b41c-a052d3e05456",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RE.GE-01_1",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1603",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/2b909c26-162f-47ce-8e15-0c1f55632eac",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1",
+                    "ACN-A2-1-RS.MI-3_2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1542",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/eab340d0-3d55-4826-a0e5-feebfeb0131d",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1477",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4862a63c-6c74-4a9d-a221-89af3c374503",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RE.GE-01_1",
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1604",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/44dbba23-0b61-478e-89c7-b3084667782f",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1668",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/8fb0966e-be1d-42c3-baca-60df5c0bcc61",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1",
+                    "ACN-A2-1-RS.MI-3_2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1278",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/8e5ef485-9e16-4c53-a475-fbb8107eac59",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A.AA-2_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1671",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/5c5bbef7-a316-415b-9b38-29753ce8e698",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1737",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/3bd6a378-4173-411d-a958-dc699b0ee2fd",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1",
+                    "ACN-A2-1-RS.MI-3_2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1481",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/717a1c78-a267-4f56-ac58-ee6c54dc4339",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RE.GE-01_1",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1479",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e327b072-281d-4f75-9c28-4216e5d72f26",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RE.GE-01_1",
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1253",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0afce0b3-dd9f-42bb-af28-1e4284ba8311",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-01"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1598",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ae7e1f5e-2d63-4b38-91ef-bce14151cce3",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1480",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/18a767cc-1947-4338-a240-bc058c81164f",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RE.GE-01_1",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1459",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/75cc73c7-5cdb-479d-a06f-7b4d0dbb1da0",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-PR.AC-2_2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1291",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6d8fd073-9c85-4ee2-a9d0-2e4ec9eb8912",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A.AA-2_1"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1471",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7dd0e9ce-1772-41fb-a50a-99977071f916",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1447",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/b9783a99-98fe-4a95-873f-29613309fe9a",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1454",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ad58985d-ab32-4f99-8bd3-b7e134c90229",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1446",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/bf6850fe-abba-468e-9ef4-d09ec7d983cd",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-PR.AC-2_1",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1373",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4cca950f-c3b7-492a-8e8f-ea39663c14f9",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-08"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1476",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0f3c4ac2-3e35-4906-a80b-473b12a622d7",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RE.GE-01_1",
+                    "ACN-A2-1-S.DC-01_1",
+                    "ACN-A2-1-S.DC-01_2",
+                    "ACN-A2-1-S.DC-01_3",
+                    "ACN-A2-1-S.DC-01_4",
+                    "ACN-A2-1-S.DC-01_5",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1486",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cb790345-a51f-43de-934e-98dbfaf9dca5",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1448",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/825d6494-e583-42f2-a3f2-6458e6f0004f",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1371",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9447f354-2c85-4700-93b3-ecdc6cb6a417",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-A2.T1-08"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1483",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/5cb81060-3c8a-4968-bcdc-395a1801f6c1",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RE.GE-01_1",
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ACF1463",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/59721f87-ae25-4db0-a2a4-77cc5b25d495",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-S.DC-02_1",
+                    "ACN-A2-1-S.DC-02_2",
+                    "ACN-A2-1-S.DC-02_3"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:e8cbc669-f12d-49eb-93e7-9273119e9933",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e8cbc669-f12d-49eb-93e7-9273119e9933",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:1bc1795e-d44a-4d48-9b3b-6fff0fd5f9ba",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1bc1795e-d44a-4d48-9b3b-6fff0fd5f9ba",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:5f0f936f-2f01-4bf5-b6be-d423792fa562",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/5f0f936f-2f01-4bf5-b6be-d423792fa562",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:7261b898-8a84-4db8-9e04-18527132abb3",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7261b898-8a84-4db8-9e04-18527132abb3",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:88999f4c-376a-45c8-bcb3-4058f713cf39",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/88999f4c-376a-45c8-bcb3-4058f713cf39",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:6ba6d016-e7c3-4842-b8f2-4992ebc0d72d",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6ba6d016-e7c3-4842-b8f2-4992ebc0d72d",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:7008174a-fd10-4ef0-817e-fc820a951d73",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7008174a-fd10-4ef0-817e-fc820a951d73",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:feedbf84-6b99-488c-acc2-71c829aa5ffc",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/feedbf84-6b99-488c-acc2-71c829aa5ffc",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:3c5e0e1a-216f-8f49-0a15-76ed0d8b8e1f",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/3c5e0e1a-216f-8f49-0a15-76ed0d8b8e1f",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3-2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:74c3584d-afae-46f7-a20a-6f8adba71a16",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/74c3584d-afae-46f7-a20a-6f8adba71a16",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:e1e5fd5d-3e4c-4ce1-8661-7d1873ae6b15",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e1e5fd5d-3e4c-4ce1-8661-7d1873ae6b15",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:86b3d65f-7626-441e-b690-81a8b71cff60",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/86b3d65f-7626-441e-b690-81a8b71cff60",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:0fc39691-5a3f-4e3e-94ee-2e6447309ad9",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0fc39691-5a3f-4e3e-94ee-2e6447309ad9",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:7238174a-fd10-4ef0-817e-fc820a951d73",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7238174a-fd10-4ef0-817e-fc820a951d73",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:496223c3-ad65-4ecd-878a-bae78737e9ed",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/496223c3-ad65-4ecd-878a-bae78737e9ed",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:e3905a3c-97e7-0b4f-15fb-465c0927536f",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e3905a3c-97e7-0b4f-15fb-465c0927536f",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-RS.MI-3-2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:ef2a8f2a-b3d9-49cd-a8a8-9a3aaaf647d9",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ef2a8f2a-b3d9-49cd-a8a8-9a3aaaf647d9",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4",
+                    "ACN-A2-1-RS.MI-3-2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:c3f317a7-a95c-4547-b7e7-11017ebdf2fe",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/c3f317a7-a95c-4547-b7e7-11017ebdf2fe",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:057d6cfe-9c4f-4a6d-bc60-14420ea1f1a9",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/057d6cfe-9c4f-4a6d-bc60-14420ea1f1a9",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4",
+                    "ACN-A2-1-RS.MI-3-2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:1b7aa243-30e4-4c9e-bca8-d0d3022b634a",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1b7aa243-30e4-4c9e-bca8-d0d3022b634a",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4",
+                    "ACN-A2-1-RS.MI-3-2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:501541f7-f7e7-4cd6-868c-4190fdad3ac9",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/501541f7-f7e7-4cd6-868c-4190fdad3ac9",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4",
+                    "ACN-A2-1-RS.MI-3-2"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:9d0b6ea4-93e2-4578-bf2f-6bb17d22b4bc",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9d0b6ea4-93e2-4578-bf2f-6bb17d22b4bc",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            },
+            {
+                "policyDefinitionReferenceId": "ACN-A2-1:3c735d8a-a4ba-4a3a-b7cf-db7754cf57f4",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/3c735d8a-a4ba-4a3a-b7cf-db7754cf57f4",
+                "parameters": {},
+                "groupNames": [
+                    "ACN-A2-1-DE.CM-8_1",
+                    "ACN-A2-1-DE.CM-8_2",
+                    "ACN-A2-1-DE.CM-8_3",
+                    "ACN-A2-1-DE.CM-8_4"
+                ]
+            }
+        ]
+    },
+    "id": "providers/Microsoft.Authorization/policySetDefinitions/ACN-A2-1-QI1",
+    "type": "Microsoft.Authorization/policySetDefinitions",
+    "name": "ACN-A2-1-QI1"
+}
