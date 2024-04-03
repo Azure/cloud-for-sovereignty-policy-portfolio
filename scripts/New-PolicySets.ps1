@@ -60,6 +60,7 @@ function New-InstallPolicySets {
                         -Parameter $varPolicyParameters `
                         -GroupDefinition $varPolicyDefinitionGroups `
                         -ManagementGroupName $parManagementGroupId `
+                        -ApiVersion "2023-04-01"
 
                 }
                 else {
@@ -71,6 +72,7 @@ function New-InstallPolicySets {
                         -Metadata $varPolicyMetadata `
                         -Parameter $varPolicyParameters `
                         -ManagementGroupName $parManagementGroupId `
+                        -ApiVersion "2023-04-01"
 
                 }
 

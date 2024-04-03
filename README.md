@@ -7,6 +7,8 @@ Microsoft Cloud for Sovereignty makes several custom policy initiatives accessib
 
 **Important** - Organizations are wholly responsible for ensuring their own compliance with all applicable laws and regulations. The information provided in this document and repository does not constitute legal advice, and organizations should consult their legal advisors for any questions regarding regulatory compliance.
 
+The evidence against each security measure and its corresponding security controls shall be assessed to determine whether it meets the security requirements. If the security requirements are not fulfilled, the outstanding risks shall be identified. The SAA and/or NCSP shall identify any additional security measures and controls needed to attain an acceptable residual risk, which would be implemented by the NCSP and/or CSP.
+
 **Note** - These policies may help you assess compliance with the control; however, there often is not a one-to-one or complete match between a control and one or more policies. As such, Compliant in Azure Policy refers only to the policy definitions themselves; this doesn't ensure you're fully compliant with all requirements of a control. In addition, the compliance standard includes controls that aren't addressed by any Azure Policy definitions at this time. Therefore, compliance in Azure Policy is only a partial view of your overall compliance status. The associations between compliance domains, controls, and Azure Policy definitions for this compliance standard may change over time. To view the change history, see the GitHub Commit History.
 
 To assist with implementation of custom initiatives, see the `New-PolicySets.ps1` PowerShell script under our scripts folder. 

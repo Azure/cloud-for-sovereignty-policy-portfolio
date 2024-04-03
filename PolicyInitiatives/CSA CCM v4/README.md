@@ -1,11 +1,12 @@
 # Cloud security Alliance (CSA) Cloud Control Matrix (CCM) v4
- The Cloud Security Alliance (CSA) is a leading organization dedicated to defining and raising awareness of best practices to help ensure a secure cloud computing environment. CSA harnesses the subject matter expertise of industry practitioners, associations, governments, and its corporate and individual members to offer cloud security-specific research, education, certification, events and products. In 2010, CSA launched the Cloud Controls Matrix (CCM), a meta-framework of cloud-specific security controls mapped to leading standards, best practices and regulations. 
+The Cloud Security Alliance (CSA) is a leading organization dedicated to defining and raising awareness of best practices to help ensure a secure cloud computing environment. CSA harnesses the subject matter expertise of industry practitioners, associations, governments, and its corporate and individual members to offer cloud security-specific research, education, certification, events and products. In 2010, CSA launched the Cloud Controls Matrix (CCM), a meta-framework of cloud-specific security controls mapped to leading standards, best practices and regulations. 
 
 The CSA Cloud Controls Matrix (CCM) is a cybersecurity control framework for cloud computing.
 It is composed of 197 control objectives that are structured in 17 domains covering all key aspects of cloud technology. It can be used as a tool for the systematic assessment of a cloud implementation, and provides guidance on which security controls should be implemented by which actor within the cloud supply chain. The controls framework is aligned to the CSA Security Guidance for Cloud Computing, and is considered a de-facto standard for cloud security assurance and compliance. 
  
-**Important** - Organizations are wholly responsible for ensuring their own compliance with all applicable laws and regulations. The information provided in this document does not constitute legal advice, and organizations should consult their legal advisors for any questions regarding regulatory compliance.
+**Important** Organizations are wholly responsible for ensuring their own compliance with all applicable laws and regulations. The information provided in this document does not constitute legal advice, and organizations should consult their legal advisors for any questions regarding regulatory compliance.
 
+The evidence against each security measure and its corresponding security controls shall be assessed to determine whether it meets the security requirements. If the security requirements are not fulfilled, the outstanding risks shall be identified. The SAA and/or NCSP shall identify any additional security measures and controls needed to attain an acceptable residual risk, which would be implemented by the NCSP and/or CSP.
 
 The contents of this folder are:
  1. CSA CCM v4 Policy Initiative (JSON file)

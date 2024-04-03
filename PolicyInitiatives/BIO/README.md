@@ -1,7 +1,9 @@
 # BIO Cloud Theme Policy Initiative
  The BIO Cloud Theme Policy Initiative aids in customizing deployments to reduce the time needed to audit environments and meet the BIO Cloud Theme (Baseline Informatiebeveiliging Overheid - Baseline Information Security for the Government) control objectives.The policy initiatives and files contained in this repository are intended to serve as a starting point. Please note that these files are not intended to be final or comprehensive solutions, but rather a helpful resource to jumpstart your efforts.
 
-Important - Organizations are wholly responsible for ensuring their own compliance with all applicable laws and regulations. The information provided in this document does not constitute legal advice, and organizations should consult their legal advisors for any questions regarding regulatory compliance.
+**Important** Organizations are wholly responsible for ensuring their own compliance with all applicable laws and regulations. The information provided in this document does not constitute legal advice, and organizations should consult their legal advisors for any questions regarding regulatory compliance.
+
+The evidence against each security measure and its corresponding security controls shall be assessed to determine whether it meets the security requirements. If the security requirements are not fulfilled, the outstanding risks shall be identified. The SAA and/or NCSP shall identify any additional security measures and controls needed to attain an acceptable residual risk, which would be implemented by the NCSP and/or CSP.
 
 The contents of this BIO Policy Initiative are:
  1. BIO Cloud Theme documentation. Reference to the BIO Cloud Theme official documentation which walks through the control objectives. This publication offers a comprehensive collection of controls for cloud service consumers in the Netherlands to protect organizational operations from a diverse set of threats and risks. The controls are flexible and customizable and implemented as part of an organization-wide process to manage risk.
