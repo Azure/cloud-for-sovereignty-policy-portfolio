@@ -59,8 +59,7 @@ function New-InstallPolicySets {
                         -Metadata $varPolicyMetadata `
                         -Parameter $varPolicyParameters `
                         -GroupDefinition $varPolicyDefinitionGroups `
-                        -ManagementGroupName $parManagementGroupId `
-                        -ApiVersion "2023-04-01"
+                        -ManagementGroupName $parManagementGroupId
 
                 }
                 else {
@@ -71,8 +70,7 @@ function New-InstallPolicySets {
                         -PolicyDefinition $varPolicyDefinitions `
                         -Metadata $varPolicyMetadata `
                         -Parameter $varPolicyParameters `
-                        -ManagementGroupName $parManagementGroupId `
-                        -ApiVersion "2023-04-01"
+                        -ManagementGroupName $parManagementGroupId
 
                 }
 
@@ -85,7 +83,15 @@ function New-InstallPolicySets {
                 }
             }
             catch {
+                $varError = "{0} : {1}`n{2}`n" + `
+                    "    + CategoryInfo          : {3}`n" + `
+                    "    + FullyQualifiedErrorId : {4}`n"
+                $varErrorProperties = $_.InvocationInfo.MyCommand.Name, $_.ErrorDetails.Message, `
+                    $_.InvocationInfo.PositionMessage, $_.CategoryInfo.ToString(), `
+                    $_.FullyQualifiedErrorId
+                $varFormattedError = $varError -f $varErrorProperties
                 $varLoopCounter++
+                Write-Host -Foreground Red -Background Black $varFormattedError
                 if ($varLoopCounter -lt $varMaxRetryAttemptTransientErrorRetry) {
                     Write-Information ">>> Retrying policy deployment after waiting for $varRetryWaitTimeTransientErrorRetry secs" -InformationAction Continue
                     Start-Sleep -Seconds $varRetryWaitTimeTransientErrorRetry
