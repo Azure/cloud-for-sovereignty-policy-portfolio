@@ -1,4 +1,41 @@
-# Italian National Cybersecurity Agency (ACN) Cloud Service Qualification - Policy Initiative
+# Italian National Cybersecurity Agency (ACN) Cloud Service Qualification Custom Policy Initiative
+<table>
+    <tr>
+        <th colspan='2' style='text-align:center'>Policy Initiative</th>
+    </tr>
+    <tr>
+        <td>Initiative A2 1 Ordinari</td>
+        <td>
+                <a href=https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fcloud-for-sovereignty-policy-portfolio%2Frefs%2Fheads%2Fmain%2Fcloud-for-sovereignty%2FARMTemplates%2FInitiative%20A2_1_Ordinari.json target=_blank>
+                    <img src=https://aka.ms/deploytoazurebutton/>
+                </a>
+                </td>
+    </tr>
+    <tr>
+        <td>Initiative A2 2 Critici</td>
+        <td>
+                <a href=https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fcloud-for-sovereignty-policy-portfolio%2Frefs%2Fheads%2Fmain%2Fcloud-for-sovereignty%2FARMTemplates%2FInitiative%20A2_2_Critici.json target=_blank>
+                    <img src=https://aka.ms/deploytoazurebutton/>
+                </a>
+                </td>
+    </tr>
+    <tr>
+        <td>Initiative B2 1 Ordinari</td>
+        <td>
+                <a href=https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fcloud-for-sovereignty-policy-portfolio%2Frefs%2Fheads%2Fmain%2Fcloud-for-sovereignty%2FARMTemplates%2FInitiative%20B2_1_Ordinari.json target=_blank>
+                    <img src=https://aka.ms/deploytoazurebutton/>
+                </a>
+                </td>
+    </tr>
+    <tr>
+        <td>Initiative B2 2 Critici</td>
+        <td>
+                <a href=https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fcloud-for-sovereignty-policy-portfolio%2Frefs%2Fheads%2Fmain%2Fcloud-for-sovereignty%2FARMTemplates%2FInitiative%20B2_2_Critici.json target=_blank>
+                    <img src=https://aka.ms/deploytoazurebutton/>
+                </a>
+                </td>
+    </tr>
+</table>
 
 In execution of the [Italian Cloud Strategy](https://www.acn.gov.it/en/strategia/strategia-cloud-italia), which contains the strategic guidelines for migration to the cloud of data and digital services of the Italian Public Administration, the National Cybersecurity Agency (ACN) issued a set of requirements for the [qualification of Cloud Services and Cloud Services Infrastructures](https://www.acn.gov.it/en/strategia/strategia-cloud-italia/qualificazione-cloud). 
 The policy initiatives and files contained in this repository are intended to serve as a starting point to map such requirements to an Azure implementation. Please note that these files are not intended to be final or comprehensive solutions, but rather a helpful resource to jumpstart your efforts.
@@ -38,7 +75,32 @@ The contents of this ACN Folder are:
         
 
     <u>NOTE 2:</u> The ACN Policy Initiatives do not currently include required measures that could not be mapped to any Azure Policy. Addressing this gap with new policies may be the subject of a future update to the ACN Policy Initiatives.
- 
+
+The Deploy to Azure feature can be utilized to make this policy initiative available for your environment to then be assigned to a specific tenant or resource. 
+
 ## Contributions
 
 Changes can not be made to the policy initiative directly in this repo. If you find an issue, feel free to open a Pull Request with the proposed fix.
+
+## Shared responsibility and customer responsibilities
+
+To ensure your data is secure and your privacy controls are addressed, we recommend that you follow a set of best practices when deploying into Azure:
+
+* [Azure security best practices and patterns](https://learn.microsoft.com/azure/security/fundamentals/best-practices-and-patterns)
+* [Microsoft Services in Cybersecurity](https://learn.microsoft.com/azure/security/fundamentals/cyber-services)
+
+Protecting your data also requires that all aspects of your security and compliance program include your cloud infrastructure and data. 
+The following guidance can help you to secure your deployment.
+
+## Trademarks
+
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
+trademarks or logos is subject to and must follow 
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
+Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
+Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+## Microsoft Legal Notice
+
+**Microsoft Legal Notice:** The Microsoft (MS) Cloud for Sovereignty Policy Portfolio (1) is not designed, intended, or made available as legal services, (2) is not intended to substitute for professional legal counsel or judgment, and (3) should not be used in place of consulting with a qualified professional legal professional for your specific needs. Microsoft makes no warranty that the Microsoft (MS) Cloud for Sovereignty Policy Portfolio is accurate, up-to-date, or complete. You are wholly responsible for ensuring your own compliance with all applicable laws and regulations. 
+

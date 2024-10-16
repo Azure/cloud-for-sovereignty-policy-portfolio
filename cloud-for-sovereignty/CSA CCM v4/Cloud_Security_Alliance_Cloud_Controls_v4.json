@@ -4,10 +4,10 @@
     "policyType": "Custom",
     "description": "The Cloud Controls Matrix (CCM) is a cybersecurity control framework for cloud computing aligned to the CSA best practices, that is considered the de-facto standard for cloud security and privacy. ",
     "metadata": {
-      "version": "1.0",
+      "version": "1.0.0",
       "category": "Regulatory Compliance"
     },
-    "version": "1.0",
+    "version": "1.0.0",
     "policyDefinitionGroups": [
       {
         "name": "CSA_CCM_v4_AaA-01",
