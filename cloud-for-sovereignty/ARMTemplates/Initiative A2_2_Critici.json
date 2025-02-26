@@ -1,0 +1,245 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-08-01/managementGroupDeploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "_generator": {
+      "name": "bicep",
+      "version": "0.30.23.60470",
+      "templateHash": "2853591397883808584"
+    }
+  },
+  "variables": {
+    "$fxv#0": {
+      "properties": {
+        "displayName": "ACN_A2_2_QI2_Critici",
+        "policyType": "Custom",
+        "description": "This initiative includes policies that address the ACN controls for Qualifications QI2.",
+        "metadata": {
+          "category": "Regulatory Compliance",
+          "version": "1.2.0",
+          "preview": false
+        },
+        "version": "1.0.0",
+        "policyDefinitionGroups": [
+          {
+            "additionalMetadataId": "/providers/Microsoft.PolicyInsights/policyMetadata/ACN_A2_2_PR.AC_2_3",
+            "name": "ACN_A2_2_PR.AC_2_3",
+            "description": "L'accesso fisico alle risorse Ã¨ protetto e amministrato | [3] Ãˆ definito un perimetro di sicurezza tra le aree amministrative e le aree di data storage e processing.",
+            "category": "Identity Management, Authentication and Access Control (PR.AC)"
+          },
+          {
+            "additionalMetadataId": "/providers/Microsoft.PolicyInsights/policyMetadata/ACN_A2_2_A.BC_3_1",
+            "name": "ACN_A2_2_A.BC_3_1",
+            "description": "Provider di infrastruttura: L'infrastruttura digitale Ã¨ dotata di soluzioni di DR e deve garantire tempi di ripristino (RTO e RPO) variabili in funzione della criticitÃ  dell'applicazione ospitata conformemente con quanto definito nella BIA. Devono comunque essere garantiti almeno i seguenti parametri di ripristino in caso di disastro: RTO 12 ore e RPO 12 ore.",
+            "category": "Business Continuity e Disaster Recovery"
+          },
+          {
+            "additionalMetadataId": "/providers/Microsoft.PolicyInsights/policyMetadata/ACN_A2_2_A.BC_3_2",
+            "name": "ACN_A2_2_A.BC_3_2",
+            "description": "Public Cloud provider: devono essere presenti servizi cloud di Disaster Recovery.",
+            "category": "Business Continuity e Disaster Recovery"
+          }
+        ],
+        "parameters": {},
+        "policyDefinitions": [
+          {
+            "groupNames": [
+              "ACN_A2_2_PR.AC_2_3"
+            ],
+            "parameters": {},
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/41256567-1795-4684-b00b-a1308ce43cac",
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1464 - Monitoring Physical Access - Intrusion Alarms - Surveillance Equipment",
+            "definitionVersion": "1.*.*"
+          },
+          {
+            "groupNames": [
+              "ACN_A2_2_PR.AC_2_3"
+            ],
+            "parameters": {},
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/75cc73c7-5cdb-479d-a06f-7b4d0dbb1da0",
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1459 - Access Control For Transmission Medium",
+            "definitionVersion": "1.*.*"
+          },
+          {
+            "groupNames": [
+              "ACN_A2_2_PR.AC_2_3"
+            ],
+            "parameters": {},
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/f2d9d3e6-8886-4305-865d-639163e5c305",
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1457 - Physical Access Control",
+            "definitionVersion": "1.*.*"
+          },
+          {
+            "groupNames": [
+              "ACN_A2_2_PR.AC_2_3"
+            ],
+            "parameters": {},
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9693b564-3008-42bc-9d5d-9c7fe198c011",
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1453 - Physical Access Control",
+            "definitionVersion": "1.*.*"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1270 - Alternate Storage Site - Recovery Time - Point Objectives",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/53c76a39-2097-408a-b237-b279f7b4614d"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1272 - Alternate Processing Site",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ae46cf7a-e3fd-427b-9b91-44bc78e2d9d8"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1273 - Alternate Processing Site",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e77fcbf2-a1e8-44f1-860e-ed6583761e65"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1248 - Contingency Plan",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/50fc602d-d8e0-444b-a039-ad138ee5deb0"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1267 - Alternate Storage Site",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4e97ba1d-be5d-4953-8da4-0cccf28f4805"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1242 - Contingency Planning Policy And Procedures",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cf3b3293-667a-445e-a722-fa0b0afc0958"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1253 - Contingency Plan - Resume Essential Missions - Business Functions",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0afce0b3-dd9f-42bb-af28-1e4284ba8311"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1294 - Information System Backup - Transfer To Alternate Storage Site",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/49dbe627-2c1e-438c-979e-dd7a39bbf81d"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1255 - Contingency Plan - Continue  Essential Missions - Business Functions",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/f3793f5e-937f-44f7-bfba-40647ef3efa0"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1251 - Contingency Plan - Coordinate With Related Plans",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/5e2b3730-8c14-4081-8893-19dbb5de7348"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1293 - Information System Backup - Separate Storage For Critical Information",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/87f7cd82-2e45-4d0f-9e2f-586b0962d142"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1277 - Alternate Processing Site - Priority Of Service",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/dc43e829-3d50-4a0a-aa0f-428d551862aa"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1244 - Contingency Plan",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6a13a8f8-c163-4b1b-8554-d63569dab937"
+          },
+          {
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1295 - Information System Recovery And Reconstitution",
+            "parameters": {},
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_1",
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "definitionVersion": "1.*.*",
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a895fbdb-204d-4302-9689-0a59dc42b3d9"
+          },
+          {
+            "groupNames": [
+              "ACN_A2_2_A.BC_3_2"
+            ],
+            "parameters": {},
+            "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/93fd8af1-c161-4bae-9ba9-f62731f76439",
+            "policyDefinitionReferenceId": "Microsoft Managed Control 1297 - Information System Recovery And Reconstitution - Restore Within Time Period",
+            "definitionVersion": "1.*.*"
+          }
+        ]
+      },
+      "id": "/providers/Microsoft.Authorization/policySetDefinitions/0c7dcabf-d049-434c-9136-52c419eb4619",
+      "name": "0c7dcabf-d049-434c-9136-52c419eb4619"
+    },
+    "policySet": "[variables('$fxv#0')]"
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Authorization/policySetDefinitions",
+      "apiVersion": "2023-04-01",
+      "name": "[variables('policySet').name]",
+      "properties": "[variables('policySet').properties]"
+    }
+  ]
+}
