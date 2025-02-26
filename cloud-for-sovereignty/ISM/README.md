@@ -19,16 +19,15 @@ The contents of this ISM Policy Initiative are:
 
 To ensure your data is secure and your privacy controls are addressed, we recommend that you follow a set of best practices when deploying into Azure:
 
-* [Azure security best practices and patterns](https://learn.microsoft.com/azure/security/fundamentals/best-practices-and-patterns)
-* [Microsoft Services in Cybersecurity](https://learn.microsoft.com/azure/security/fundamentals/cyber-services)
-
-Protecting your data also requires that all aspects of your security and compliance program include your cloud infrastructure and data. 
-The following guidance can help you to secure your deployment.
+- [Azure security best practices and patterns](https://learn.microsoft.com/azure/security/fundamentals/best-practices-and-patterns)
+- [Microsoft Services in Cybersecurity](https://learn.microsoft.com/azure/security/fundamentals/services-technologies)
+  
+Protecting your data also requires that all aspects of your security and compliance programs include your cloud infrastructure and data. The above guidance can help you to secure your deployment.
 
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
